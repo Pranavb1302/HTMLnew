@@ -10,6 +10,15 @@
             border: 1px solid black;
             border-collapse: collapse;
         }
+        .off{
+            background-color: rgba(250, 235, 215, 0.628);
+        }
+        .blue{
+            background-color: rgba(100, 148, 237, 0.404);
+        }
+        .green{
+            background-color: rgba(34, 139, 34, 0.502);
+        }
     </style>
 </head>
 <body>
@@ -32,8 +41,8 @@
             </tr>
             <tr>
                 <td rowspan="2">Monday</td>
-                <td rowspan="2">8:00 am</td>
-                <td rowspan="2">5:00 pm</td>
+                <td rowspan="2" class="off">8:00 am</td>
+                <td rowspan="2" class="blue">5:00 pm</td>
                 <td>Intro to XML</td>
             </tr>
             <tr>
@@ -41,23 +50,23 @@
             </tr>
             <tr>
                 <td rowspan="3">Tuesday</td>
-                <td>8:00 am</td>
-                <td>11:00 am</td>
+                <td class="off">8:00 am</td>
+                <td class="off">11:00 am</td>
                 <td>Xpath</td>
             </tr>
             <tr>
-                <td>11:00 am</td>
-                <td>2:00 pm</td>
+                <td class="off">11:00 am</td>
+                <td class="green">2:00 pm</td>
                 <td rowspan="2">XSL transformation</td>
             </tr>
             <tr>
-                <td>2:00 pm</td>
-                <td>5:00 pm</td>
+                <td class="green">2:00 pm</td>
+                <td class="blue">5:00 pm</td>
             </tr>
             <tr>
                 <td>Wednesday</td>
-                <td>8:00 am</td>
-                <td>12:00 pm</td>
+                <td class="off">8:00 am</td>
+                <td class="green">12:00 pm</td>
                 <td>XSL formating</td>
             </tr>
         </table> 
