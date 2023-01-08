@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: rubik;
+            src: url(Rubik/Rubik-VariableFont_wght.ttf);
+        }
+        .size{
+            font-size: x-large;
+            font-family: rubik;
+            }
+        .paysize{
+            font-family: rubik;
+        }
+        #blue{
+            color: blueviolet;
+        }
+        #black{
+            color: gray;
+        }
+        #green{
+            color: white;
+            background-color: rgb(12, 231, 100);
+            border-radius: 5px;
+        }
+        #hori{
+            position:relative;
+            width: 70%;
+            margin-left: 2px;
+            background-color: rgba(128, 128, 128, 0);    
+        }
+        #round{
+            border-radius: 10px;
+        }
+        #pad{
+            background-color: antiquewhite;
+            margin-top: 20px;
+            margin-left: 530px;
+            margin-right: 530px;
+            padding: 20px;
+            width: 430px;
+            border-radius: 25px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    
+        <div id="pad">
+            <figure>
+                <a href="https://www.thecodehelp.in/course/web-development-bootcamp" target="_blank"><img src="Hwimg.jpg" alt="Babbar" width="350px" height="200px" id="round"></a>
+                <figcaption>
+                    <strong class="size">
+                            Web Development Master<br>Course @dot Batch<br>
+                    </strong>
+                    <hr id="hori">
+                    <strong class="paysize">
+                        <span id="blue" class="left">₹4500</span>
+                        <span id="black" class="left"><del>₹6999</del></span>
+                        <span id="green" class="left">42% off</span>
+                    </strong>
+                </figcaption>
+            </figure>
+            
+        </div>
+    
+</body>
+</html>
